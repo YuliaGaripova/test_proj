@@ -1,4 +1,3 @@
-a = int(input('Enter first number: '))
-b = int(input('Enter second number: '))
+a, b = map(int, input('Enter two numbers: '))
 print(f'{a} + {b} = {a + b}')
 # add comment from site
